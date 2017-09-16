@@ -12,8 +12,7 @@ const User = new Schema({
 	username: String,
 	profilePhoto: String,
 	email: {
-		type: String,
-		required: true
+		type: String
 	},
 	posts: [
 		{
